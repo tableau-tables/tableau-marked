@@ -1,6 +1,6 @@
 {
   "name": "tableau-markd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Implementation of the tableau extended table syntax for markd",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,7 +23,7 @@
     "typescript": "^4.7.3"
   },
   "dependencies": {
-    "js-tableau-parser": "../js-tableau-parser",
+    "js-tableau-parser": "js-tableau-parser",
     "marked": "^4.0.16",
     "strscan-ts": "^1.0.0",
     "ts-jest": "^28.0.4"
